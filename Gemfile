@@ -60,3 +60,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'gibbon'
 gem 'dotenv'
 gem 'dotenv-rails', groups: [:development, :test]
+
+group :development do
+   gem 'sqlite3'
+end
+
+group :test, :production do
+    gem 'pg'
+end
