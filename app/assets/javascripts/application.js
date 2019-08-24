@@ -13,3 +13,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+//= require rails-ujs
+//= require_tree .
+
+var scroll = new SmoothScroll('a[href*="#"]');
