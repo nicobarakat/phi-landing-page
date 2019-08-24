@@ -62,7 +62,7 @@ gem 'dotenv'
 gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
-   gem 'sqlite3'
+   gem 'sqlite3', '~> 1.3.13'
    gem 'listen', '>= 3.0.5', '< 3.2'
 end
 
