@@ -6,6 +6,7 @@ body {
   margin: 0px;
   margin-top: 40px;
   font-family: 'Comfortaa';
+  position: relative;
   h1 {
     color: #48476E;
     font-size: 50px;
@@ -167,10 +168,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 200px;
   text-decoration: none;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-left: 220px;
   text-align:center;
   h3 {
     color: white;
@@ -241,6 +242,14 @@ body {
   }
 
   .discover-container {
-    padding-left: 40px;
+    margin-left: 45px;
   }
+}
+
+.fa-paper-plane {
+  position: fixed;
+  font-size: 45px;
+  right: 30px;
+  bottom: 30px;
+  color: #48476E;
 }

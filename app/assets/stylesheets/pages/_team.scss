@@ -9,11 +9,21 @@
 }
 
 .members {
+  padding-top: 50px;
+}
+
+.founders {
   display: flex;
   flex-direction: row;
-  padding-top: 50px;
-  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.rest-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 .member-container {

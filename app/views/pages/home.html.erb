@@ -68,48 +68,56 @@
   <div class="extra-grey-area"></div>
 <!-- This is the about section -->
   <div class="about-section" id="about">
-    <div class="what-phi">
-      <h3>Qu'est-ce-que Phi?</h3>
-      <p>C'est la gestion de votre santé en quelques clicks.</p>
-      <p>Une platforme qui condense toute votre info médicale, qui vous recommande quoi faire en cas de problème et établit le lien direct avec hôpital ou médecin de famille. </p>
+    <div class="what-phi-container">
+      <div class="what-phi">
+        <!-- <h3>Qu'est-ce-que Phi?</h3> -->
+        <p><strong>Phi est né quand nous avons constaté le temps que passaient les médecins à remplir des papiers plutôt qu’à s’occuper des patients. Aujourd’hui c’est bien plus que ça.</strong></p>
+        <p>C'est la gestion de votre santé en quelques clicks.</p>
+        <p>Une app qui concentre toute votre info médicale, recommande quoi faire en cas de problème, établit un lien direct avec hôpital ou médecin traitant et facilite le suivi.</p>
+      </div>
+      <div class="didyouknow">
+        <p>Le saviez-vous?</p>
+        <p>L'hôpital et les médecins de famille n'ont pas toujours les mêmes informations à propos des patients.</p>
+      </div>
     </div>
+    <h3 id="why-phi">Pourquoi Phi?</h3>
     <div class="why-phi">
-      <h3>Pourquoi Phi?</h3>
+
       <div class="explanation">
         <div class="logo-container">
           <div class="logo"><i class="fab fa-gg-circle"></i></div>
-          <div class="logo-title"><h4>Concentration de vos données médicales.</h4></div>
+          <div class="logo-title"><h4>Accès à l’intégralité de vos données médicales</h4></div>
         </div>
         <div class="about-text" id="exp-first">
-          <p>Saviez-vous que l'hôpital et les médecins de famille n'ont pas toujours les mêmes informations à propos des patients?</p>
-          <p>Phi récupère toutes les donnée médiales sur vous et les concentre dans la paume de votre main.</p>
+          <p>Phi favorise un échange automatique d’informations entre vous, l’hôpital et votre médecin traitant. De cette manière vous disposez à tout moment de vos infos de base, des détails de vos anciennes consultations, mais aussi des informations relatives à votre assurance, par exemple les coûts d’une prestation ou les remboursements.</p>
         </div>
       </div>
+
       <div class="explanation">
         <div class="logo-container">
           <div class="logo">
             <i class="far fa-calendar-alt"></i>
           </div>
           <div class="logo-title">
-            <h4>Prise de rendez-vous.</h4>
+            <h4>Pré-diagnostic intelligent</h4>
           </div>
         </div>
         <div class="about-text" id="exp-second">
-          <p>S'il vous arrive quelque chose ou que vous deviez suivre un traitement précis, Phi s'occupe de tout.</p>
-          <p>Avec l'interface prise de rendez-vous, consulter avec un médecin n'aura jamais été aussi facile.</p>
+          <p>J'aime manger des pommes. D'ailleurs c'est mon fruit préféré. Les nuages sont comme une peinture dans le ciel, à travers lequels nous pouvons stimuler notre créativité, ainsi passant du coq à l'âne et la carapace d'une tortue peut supporter le poids d'un éléphant. Merci.</p>
         </div>
       </div>
+
       <div class="explanation">
         <div class="logo-container">
           <div class="logo">
            <i class="fas fa-address-card"></i>
           </div>
           <div class="logo-title">
-             <h4>Platforme pour la télémédecine et </h4>
+             <h4>Prise de rendez-vous facile</h4>
           </div>
         </div>
         <div class="about-text" id="exp-third">
-          <p>Nous pensons déjà au futur et l'avenir de la médecine.</p>
+          <p>J'aime manger des pommes. D'ailleurs c'est mon fruit préféré. Les nuages sont comme une peinture dans le ciel, à travers lequels nous pouvons stimuler notre créativité, ainsi passant du coq à l'âne et la carapace d'une tortue peut supporter le poids d'un éléphant. Merci.</p>
           <p></p>
         </div>
         </div>
@@ -118,54 +126,62 @@
     <div class="team-section">
       <h3>L'équipe</h3>
       <div class="members">
-        <div class="member-container">
-          <%= image_tag("nico.jpg", class: "member-photo", alt: "Nicolas Barakat") %>
-          <div class="member-info">
-            <h4>Nicolas Barakat</h4>
-            <p><strong>Développement & gestion du produit</strong></p>
-            <p>Gradué en Management et développement web</p>
+
+        <div class="founders">
+          <div class="member-container">
+            <%= image_tag("nico.jpg", class: "member-photo", alt: "Abdullah Al-awadhi") %>
+            <div class="member-info">
+              <h4>Abdullah Al-awadhi</h4>
+              <p><strong>Gestion du projet</strong></p>
+              <p>Étudiant en 6ème année de Médecine à l'Université de Genève</p>
+            </div>
+          </div>
+
+          <div class="member-container">
+            <%= image_tag("julian.jpg", class: "member-photo", alt: "Julian Frequent") %>
+            <div class="member-info">
+              <h4>Julian Frequent</h4>
+              <p><strong>CTO & Développement</strong></p>
+              <p>Étudiant en 6ème année de Médecine à l'Université de Genève</p>
+            </div>
           </div>
         </div>
 
-        <div class="member-container">
-          <%= image_tag("mat.jpg", class: "member-photo", alt: "Mathieu Leitner") %>
-          <div class="member-info">
-            <h4>Mathieu Leitner</h4>
-            <p><strong>Développeur principal</strong></p>
-            <p>Étudiant en développement web à CREA</p>
+        <div class="rest-team">
+          <div class="member-container">
+            <%= image_tag("alex.png", class: "member-photo", alt: "Alexandre Tasso") %>
+            <div class="member-info">
+              <h4>Alexandre Tasso</h4>
+              <p><strong>Business development</strong></p>
+              <p>Étudiant MBA à IE Madrid.</p>
+            </div>
           </div>
-        </div>
 
-        <div class="member-container">
-          <%= image_tag("nico.jpg", class: "member-photo", alt: "Alexandre Tasso") %>
-          <div class="member-info">
-            <h4>Alexandre Tasso</h4>
-            <p><strong>Business development</strong></p>
-            <p>Étudiant MBA à IE Madrid.</p>
+          <div class="member-container">
+            <%= image_tag("nico.jpg", class: "member-photo", alt: "Nicolas Barakat") %>
+            <div class="member-info">
+              <h4>Nicolas Barakat</h4>
+              <p><strong>Développeur</strong></p>
+              <p>Gradué en Management et développement web</p>
+            </div>
           </div>
-        </div>
 
-        <div class="member-container">
-          <%= image_tag("nico.jpg", class: "member-photo", alt: "Abdullah Al-awadhi") %>
-          <div class="member-info">
-            <h4>Abdullah Al-awadhi</h4>
-            <p><strong>Gestion du projet</strong></p>
-            <p>Étudiant en 6ème année de Médecine à l'Université de Genève</p>
+          <div class="member-container">
+            <%= image_tag("mat.jpg", class: "member-photo", alt: "Mathieu Leitner") %>
+            <div class="member-info">
+              <h4>Mathieu Leitner</h4>
+              <p><strong>Développeur</strong></p>
+              <p>Étudiant en développement web à CREA</p>
+            </div>
           </div>
-        </div>
 
-        <div class="member-container">
-          <%= image_tag("julian.jpg", class: "member-photo", alt: "Julian Frequent") %>
-          <div class="member-info">
-            <h4>Julian Frequent</h4>
-            <p><strong>CTO & Développement back-end</strong></p>
-            <p>Étudiant en 6ème année de Médecine à l'Université de Genève</p>
-          </div>
         </div>
 
       </div>
     </div>
   </div>
+  <a href="mailto:nicolas_barakat@hotmail.com"><i class="far fa-paper-plane"></i></a>
+
 </div>
 
 
