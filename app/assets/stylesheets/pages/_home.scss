@@ -246,10 +246,34 @@ body {
   }
 }
 
-.fa-paper-plane {
+.contactus {
+  display: flex;
+  flex-direction: column;
   position: fixed;
-  font-size: 45px;
   right: 30px;
   bottom: 30px;
-  color: #48476E;
+  text-align: right;
 }
+
+.fa-paper-plane {
+  font-size: 45px;
+  color: #48476E;
+  transition: all .2s ease-in-out;
+}
+
+.fa-paper-plane:hover {
+  transform: scale(1.1);
+}
+
+.contact-text {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 40px;
+  color: #48476E;
+  font-size: 15px;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+
