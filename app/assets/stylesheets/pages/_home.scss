@@ -213,9 +213,16 @@ body {
     to   { transform: translate(0, -0px); }
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 375px) and (min-width: 0px) {
   .banner {
-    height: 445px;
+    height: 812px;
+    background: image-url('phi-mobile-landing.png') no-repeat;
+    background-size: cover;
+    background-position: 0px -115px;
+  }
+
+  .text-banner {
+    padding-left: 10px;
   }
 
   .title {
@@ -224,21 +231,25 @@ body {
 
   .catchphrase {
     margin-bottom: 0px;
-    width: 500px;
+    width: 370px;
     h2 {
       padding-top: 20px;
       font-size:38px;
     }
   }
 
+  .banner-lower-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+  }
+
   .subscribe-container {
+    display: flex;
+    flex-direction: column;
     input {
       height: 30px;
     }
-  }
-
-  .banner-lower-section {
-    padding-top: 20px;
   }
 
   .discover-container {
