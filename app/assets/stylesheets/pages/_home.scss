@@ -232,7 +232,7 @@ body {
     height: 600px;
     background: image-url('phi-mobile-landing.png') no-repeat;
     background-size: cover;
-    background-position: 0px -210px;
+    background-position: 0px -180px;
   }
 
   .text-banner {
@@ -243,18 +243,18 @@ body {
   .title {
     margin-bottom: 0px;
     h1 {
-      font-size: 30px;
+      font-size: 25px;
     }
     img {
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
     }
   }
 
   .catchphrase {
     margin-bottom: 0px;
-    width: 370px;
-    padding-top: 0px;
+    width: 335px;
+    padding-top: 20px;
     h2 {
       padding-top: 10px;
       font-size:30px;
@@ -264,7 +264,7 @@ body {
   .banner-lower-section {
     display: flex;
     flex-direction: column;
-    padding-top: 75px;
+    padding-top: 80px;
   }
 
   .subscribe-container {
@@ -273,6 +273,13 @@ body {
     input {
       height: 30px;
     }
+  }
+
+  #mce-responses {
+    position: absolute !important;
+    top: 139px !important;
+    left: 89px !important;
+    width: auto !important;
   }
 
   .button {
@@ -339,6 +346,14 @@ body {
   }
   .rest-team {
    flex-direction: column !important;
+  }
+  .contactus {
+  }
+  .mc-field-group label {
+    width: 100px !important;
+  }
+  #email {
+    width: 345px !important;
   }
 }
 
