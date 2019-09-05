@@ -282,6 +282,12 @@ body {
     width: auto !important;
   }
 
+  #email {
+    input {
+      width: 322px !important;
+    }
+  }
+
   .button {
     height: 45px !important;
     width: 169px;
@@ -328,9 +334,13 @@ body {
   #arrow {
     font-size: 20px;
   }
+  .about-section {
+    padding-top: 45px !important;
+  }
   .what-phi-container {
     display: flex;
     flex-direction: column !important;
+    align-items: center;
   }
   .what-phi {
     width: 333px !important {
@@ -340,7 +350,7 @@ body {
     flex-direction: column !important;
   }
   .explanation {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .founders {
     flex-direction: column !important;
