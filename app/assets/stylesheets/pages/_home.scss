@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0px;
-  margin-top: 40px;
+  margin-top: 0px;
   font-family: 'Comfortaa';
   position: relative;
   h1 {
     color: #48476E;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px;
   }
   h2 {
@@ -38,13 +38,15 @@ body {
 
 .text-banner {
   padding-left: 100px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .title {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
+  padding-top: 30px;
+  align-items: center;
   img {
     width: 80px;
     height: 80px;
@@ -53,7 +55,7 @@ body {
 
 .catchphrase {
   width: 600px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .mailchimp {
@@ -130,6 +132,9 @@ body {
 
 #button-container {
   align-self: flex-end;
+  position: absolute;
+  top: 195px;
+  left: 385px;
 }
 
 #mce-responses {
@@ -158,6 +163,13 @@ body {
   margin: 0px;
 }
 
+#sentence-desktop {
+    display: block;
+  }
+#sentence-mobile {
+    display: none;
+  }
+
 .banner-lower-section {
   display: flex;
   flex-direction: row;
@@ -171,7 +183,7 @@ body {
   text-decoration: none;
   align-items: center;
   margin-top: 40px;
-  margin-left: 220px;
+  margin-left: 400px;
   text-align:center;
   h3 {
     color: white;
@@ -196,7 +208,7 @@ body {
 }
 
 .extra-grey-area {
-  height: 70px;
+  height: 110px;
   background-color: #48476E;
 }
 
@@ -285,16 +297,25 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    position: absolute;
+    top: 236px;
+    left: 12px;
   }
 
   .discover-container {
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 65px;
   }
   .discover-phi {
     h3 {
       font-size: 20px;
     }
+  }
+  #sentence-mobile {
+    display: flex;
+  }
+  #sentence-desktop {
+    display: none;
   }
   #arrow {
     font-size: 20px;
