@@ -227,7 +227,7 @@ body {
 
 //Media responsiveness
 
-@media screen and (max-width: 375px) and (min-width: 0px) {
+@media screen and (max-width: 414px) and (min-width: 0px) {
   .banner {
     height: 600px;
     background: image-url('phi-mobile-landing.png') no-repeat;
@@ -367,6 +367,28 @@ body {
     width: 345px !important;
   }
 }
+
+@media only screen and (device-width : 414px) and (device-height: 736px) {
+  .banner-lower-section {
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (device-width : 320px) and (device-height: 568px) {
+  .body {
+    width: 112% !important;
+  }
+  .banner {
+    height: 593px;
+  }
+  .catchphrase {
+    padding-top: 10px;
+  }
+  .extra-grey-area {
+    height: 53px;
+  }
+}
+
 
 //end Media responsiveness
 
