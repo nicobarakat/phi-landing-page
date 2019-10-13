@@ -61,4 +61,4 @@ gem 'gibbon'
 gem 'dotenv'
 gem 'dotenv-rails', groups: [:development, :test]
 
-gem 'heroku-deflater', :group => :production
+gem 'heroku-deflater'
