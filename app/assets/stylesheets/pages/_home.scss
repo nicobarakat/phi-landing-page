@@ -22,11 +22,19 @@ body {
     color: #48476E;
     font-size: 30px;
   }
+  h4 {
+    margin: 0px;
+    color: #48476E;
+    font-size: 20px;
+  }
   p {
     color: #48476E;
     font-size: 20px;
     font-weight: 300;
     font-family: 'Nunito';
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -39,6 +47,18 @@ body {
 .text-banner {
   padding-left: 100px;
   padding-top: 0px;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  text-align: right;
+  link {
+    text-decoration: none;
+  }
 }
 
 .title {
@@ -63,12 +83,12 @@ body {
 }
 
 .subscribe-container {
-  padding-top: 0px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   h4 {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   input {
     height: 50px;
