@@ -246,7 +246,7 @@ body {
 }
 
 //Media responsiveness
-
+//iPhone X
 @media screen and (max-width: 414px) and (min-width: 0px) {
   .banner {
     height: 600px;
@@ -284,7 +284,7 @@ body {
   .banner-lower-section {
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 95px;
   }
 
   .subscribe-container {
@@ -387,29 +387,62 @@ body {
     width: 345px !important;
   }
 }
-
+//iPhone Plus
 @media only screen and (device-width : 414px) and (device-height: 736px) {
   .banner-lower-section {
-    padding-top: 120px;
+    padding-top: 140px;
   }
 }
-
+//iPhone 5
 @media only screen and (device-width : 320px) and (device-height: 568px) {
   .body {
     width: 112% !important;
   }
   .banner {
-    height: 593px;
+    height: 584px;
   }
   .catchphrase {
     padding-top: 10px;
   }
   .extra-grey-area {
-    height: 53px;
+    height: 64px;
   }
 }
-
-
+//iPad
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+  .body {
+    width: 1024px;
+  }
+  .banner {
+    background-size: 100%;
+    background-position: 0px 55px;
+    height: 511px;
+  }
+  .extra-grey-area {
+    height: 130px;
+  }
+  .discover-container {
+    margin-left: 270px;
+  }
+}
+//Pixel 2XL
+@media only screen and (device-width : 411px) {
+  .banner-lower-section {
+    padding-top: 140px;
+  }
+}
+//Samsung Galaxy S5
+@media only screen and (device-width : 360px) {
+  .catchphrase {
+    padding-top: 10px;
+  }
+  .banner {
+    height: 552px;
+  }
+  .extra-grey-area {
+    height: 99px;
+  }
+}
 //end Media responsiveness
 
 .contactus {
