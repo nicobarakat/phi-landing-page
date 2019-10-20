@@ -426,11 +426,19 @@ body {
     background-position: 0px 55px;
     height: 511px;
   }
+  .language {
+    right: 60px;
+  }
   .extra-grey-area {
     height: 130px;
   }
   .discover-container {
     margin-left: 270px;
+  }
+}
+@media only screen and (max-width : 768px){
+  .language {
+    right: -180px;
   }
 }
 //Pixel 2XL
