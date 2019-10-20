@@ -424,7 +424,7 @@ body {
   .banner {
     background-size: 100%;
     background-position: 0px 55px;
-    height: 511px;
+    height: 510px;
   }
   .language {
     right: 60px;
@@ -436,7 +436,10 @@ body {
     margin-left: 270px;
   }
 }
-@media only screen and (max-width : 768px){
+@media only screen and (device-width : 768px){
+  .banner {
+    height: 512px;
+  }
   .language {
     right: -180px;
   }
