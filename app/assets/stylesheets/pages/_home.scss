@@ -2,19 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: 'Comfortaa';
-  src: font-url('Comfortaa-Regular.ttf');
-  src: font-url('Comfortaa-SemiBold.ttf');
-  src: font-url('Comfortaa-Medium.ttf');
-  src: font-url('Comfortaa-Light.ttf');
-  src: font-url('Comfortaa-Bold.ttf');
-}
-
 body {
   margin: 0px;
   margin-top: 0px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   position: relative;
   h1 {
     color: #48476E;
