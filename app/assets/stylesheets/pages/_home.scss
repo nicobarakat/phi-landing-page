@@ -3,7 +3,7 @@ html {
 }
 
 @font-face {
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa';
   src: font-url('Comfortaa-Regular.ttf');
   src: font-url('Comfortaa-SemiBold.ttf');
   src: font-url('Comfortaa-Medium.ttf');
@@ -14,7 +14,7 @@ html {
 body {
   margin: 0px;
   margin-top: 0px;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
   position: relative;
   h1 {
     color: #48476E;
