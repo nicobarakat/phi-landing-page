@@ -62,3 +62,5 @@ gem 'dotenv'
 gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'heroku-deflater'
+
+gem 'cloudinary'

@@ -1,0 +1,6 @@
+production:
+  cloud_name: "nbprojects"
+  api_key: "821374839757174"
+  api_secret: "xqF7-bZBHpNzsq3chfXN51_AMhA"
+  secure: true
+  cdn_subdomain: true
